@@ -1,6 +1,6 @@
 # Brain Tumor Detection from MRI using CNN
 ## Live Demo
-Try the app here: https://edashah474-brain-tumor-detection.hf.space
+https://edashah474-brain-tumor-detection.hf.space
 
 ## Results
 - Validation Accuracy: 97.68%
