@@ -78,9 +78,30 @@ if uploaded_file is not None:
     )
 
 st.divider()
-st.markdown(
-    "**Safa Sayyed| CS AI-ML | KLE Technological University**"
-)
-st.markdown(
-    "**GitHub:** github.com/eadashah474-spec/brain-tumor-detection"
-)
+st.markdown("""
+<div class="footer">
+    <div style="color: #63b3ed; font-weight: 600; 
+    font-size: 1.1rem; margin-bottom: 10px;">
+        NeuroScan AI
+    </div>
+    <div style="color: #a0aec0; margin-bottom: 5px; font-size: 0.95rem;">
+        Built by <strong style="color: #e2e8f0;">Noor Khan</strong>
+    </div>
+    <div style="color: #718096; font-size: 0.85rem; margin-bottom: 15px;">
+        CS AI-ML · KLE Technological University, Belgaum
+    </div>
+    <div style="display: flex; justify-content: center; 
+    gap: 25px; flex-wrap: wrap; margin-bottom: 10px;">
+        <a href="mailto:edashah474@gmail.com" 
+        style="color: #63b3ed; text-decoration: none; font-size: 0.85rem;">
+        📧 edashah474@gmail.com</a>
+        <a href="https://linkedin.com/in/noor-khan-959008352" 
+        style="color: #63b3ed; text-decoration: none; font-size: 0.85rem;">
+        💼 LinkedIn</a>
+        <a href="https://github.com/edashah474-spec/brain-tumor-detection" 
+        style="color: #63b3ed; text-decoration: none; font-size: 0.85rem;">
+        💻 GitHub</a>
+    </div>
+    
+</div>
+""", unsafe_allow_html=True)
