@@ -1,5 +1,12 @@
 # Brain Tumor Detection from MRI using CNN
+## Live Demo
+Try the app here: https://edashah474-brain-tumor-detection.hf.space
 
+## Results
+- Validation Accuracy: 97.68%
+- Test Accuracy: 93.81%
+- Model: EfficientNetV2B0 with Transfer Learning
+- Dataset: 7,200 Brain MRI scans (4 classes)
 An advanced deep learning system that classifies brain MRI scans 
 into 4 categories using EfficientNetV2 transfer learning.
 
