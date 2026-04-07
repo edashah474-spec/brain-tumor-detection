@@ -47,4 +47,4 @@ brain-tumor-detection/
 
 ## Author
 - GitHub: eadashah474-spec
-- Project built for London ML placement
+
